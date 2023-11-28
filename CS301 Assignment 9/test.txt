@@ -1,0 +1,7 @@
+BubbleSort
+BubbleSort
+BubbleSort
+MergeSort
+MergeSort
+MergeSort
+Quit

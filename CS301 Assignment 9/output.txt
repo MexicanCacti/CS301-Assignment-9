@@ -1,0 +1,19 @@
+Test3
+
+BUBBLE SORT OF SIZE 20000
+Time elapsed: 4.485 seconds
+
+BUBBLE SORT OF SIZE 20000
+Time elapsed: 4.473 seconds
+
+BUBBLE SORT OF SIZE 20000
+Time elapsed: 4.531 seconds
+
+MERGE SORT OF SIZE 20000
+Time elapsed: 1.424 seconds
+
+MERGE SORT OF SIZE 20000
+Time elapsed: 1.08 seconds
+
+MERGE SORT OF SIZE 20000
+Time elapsed: 1.099 seconds
