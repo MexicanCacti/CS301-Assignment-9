@@ -1,37 +1,37 @@
 alpha
 
-BUBBLE SORT OF SIZE 20000
-Time elapsed: 4.595 seconds
+BUBBLE SORT OF SIZE 40000
+Time elapsed: 17.74 seconds
 
-BUBBLE SORT OF SIZE 20000
-Time elapsed: 4.47 seconds
+BUBBLE SORT OF SIZE 40000
+Time elapsed: 17.322 seconds
 
-BUBBLE SORT OF SIZE 20000
-Time elapsed: 4.532 seconds
+BUBBLE SORT OF SIZE 40000
+Time elapsed: 17.024 seconds
 
-MERGE SORT OF SIZE 20000
-Time elapsed: 0.374 seconds
+MERGE SORT OF SIZE 40000
+Time elapsed: 0.947 seconds
 
-MERGE SORT OF SIZE 20000
-Time elapsed: 0.257 seconds
+MERGE SORT OF SIZE 40000
+Time elapsed: 0.947 seconds
 
-MERGE SORT OF SIZE 20000
-Time elapsed: 0.26 seconds
+MERGE SORT OF SIZE 40000
+Time elapsed: 0.948 seconds
 
-QUICK SORT OF SIZE 20000
-Time elapsed: 0.005 seconds
-
-QUICK SORT OF SIZE 20000
-Time elapsed: 0.004 seconds
-
-QUICK SORT OF SIZE 20000
-Time elapsed: 0.004 seconds
-
-HEAP SORT OF SIZE 20000
-Time elapsed: 0.011 seconds
-
-HEAP SORT OF SIZE 20000
+QUICK SORT OF SIZE 40000
 Time elapsed: 0.01 seconds
 
-HEAP SORT OF SIZE 20000
+QUICK SORT OF SIZE 40000
+Time elapsed: 0.009 seconds
+
+QUICK SORT OF SIZE 40000
 Time elapsed: 0.01 seconds
+
+HEAP SORT OF SIZE 40000
+Time elapsed: 0.023 seconds
+
+HEAP SORT OF SIZE 40000
+Time elapsed: 0.023 seconds
+
+HEAP SORT OF SIZE 40000
+Time elapsed: 0.022 seconds

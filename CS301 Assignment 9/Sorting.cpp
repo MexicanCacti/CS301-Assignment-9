@@ -82,13 +82,26 @@ int main() {
 
 void bubbleSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
+  /* block to check if sorting worked
+  cout << "Before: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // start the timer and start sorting
   clock_t  startTime = clock();
   Bubble(test); // see BubbleSort.h for implementation of bubble sort
   clock_t endTime = clock();
   // stop timer, computer timing result
   elapsedSeconds = (double)(endTime - startTime) / CLOCKS_PER_SEC;
-  
+  /* block to check sorting worked
+  cout << "After: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // report result
   out << "\nBUBBLE SORT OF SIZE " << test.size() << endl;
   out << "Time elapsed: " << elapsedSeconds << " seconds" << endl;
@@ -97,13 +110,26 @@ void bubbleSort(vector<int>test, ofstream& out) {
 
 void quickSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
+  /* block to check if sorting worked
+  cout << "Before: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // start the timer and start sorting
   clock_t  startTime = clock();
   QuickSort(test, 0, test.size() - 1);
   clock_t endTime = clock();
   // stop timer, computer timing result
   elapsedSeconds = (double)(endTime - startTime) / CLOCKS_PER_SEC;
-
+  /* block to check sorting worked
+  cout << "After: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // report result
   out << "\nQUICK SORT OF SIZE " << test.size() << endl;
   out << "Time elapsed: " << elapsedSeconds << " seconds" << endl;
@@ -112,13 +138,26 @@ void quickSort(vector<int>test, ofstream& out) {
 
 void mergeSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
+  /* block to check if sorting worked
+  cout << "Before: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // start the timer and start sorting
   clock_t  startTime = clock();
   MergeSort(test, 0, test.size() - 1);
   clock_t endTime = clock();
   // stop timer, computer timing result
   elapsedSeconds = (double)(endTime - startTime) / CLOCKS_PER_SEC;
-
+  /* block to check sorting worked
+  cout << "After: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // report result
   out << "\nMERGE SORT OF SIZE " << test.size() << endl;
   out << "Time elapsed: " << elapsedSeconds << " seconds" << endl;
@@ -127,14 +166,26 @@ void mergeSort(vector<int>test, ofstream& out) {
 
 void heapSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
-
+  /* block to check if sorting worked
+  cout << "Before: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // start the timer and start sorting
   clock_t  startTime = clock();
   HeapSort(test, test.size());
   clock_t endTime = clock();
   // stop timer, computer timing result
   elapsedSeconds = (double)(endTime - startTime) / CLOCKS_PER_SEC;
-
+  /* block to check sorting worked
+  cout << "After: " << endl;
+  for (int i = 0; i < test.size(); i++) {
+    cout << test[i] << "  ";
+  }
+  cout << endl << endl;
+  */
   // report result
   out << "\nHEAP SORT OF SIZE " << test.size() << endl;
   out << "Time elapsed: " << elapsedSeconds << " seconds" << endl;
