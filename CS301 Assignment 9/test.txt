@@ -4,4 +4,10 @@ BubbleSort
 MergeSort
 MergeSort
 MergeSort
+QuickSort
+QuickSort
+QuickSort
+HeapSort
+HeapSort
+HeapSort
 Quit

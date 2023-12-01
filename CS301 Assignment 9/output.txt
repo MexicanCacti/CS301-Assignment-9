@@ -1,19 +1,37 @@
-Test3
+alpha
 
 BUBBLE SORT OF SIZE 20000
-Time elapsed: 4.485 seconds
+Time elapsed: 4.595 seconds
 
 BUBBLE SORT OF SIZE 20000
-Time elapsed: 4.473 seconds
+Time elapsed: 4.47 seconds
 
 BUBBLE SORT OF SIZE 20000
-Time elapsed: 4.531 seconds
+Time elapsed: 4.532 seconds
 
 MERGE SORT OF SIZE 20000
-Time elapsed: 1.424 seconds
+Time elapsed: 0.374 seconds
 
 MERGE SORT OF SIZE 20000
-Time elapsed: 1.08 seconds
+Time elapsed: 0.257 seconds
 
 MERGE SORT OF SIZE 20000
-Time elapsed: 1.099 seconds
+Time elapsed: 0.26 seconds
+
+QUICK SORT OF SIZE 20000
+Time elapsed: 0.005 seconds
+
+QUICK SORT OF SIZE 20000
+Time elapsed: 0.004 seconds
+
+QUICK SORT OF SIZE 20000
+Time elapsed: 0.004 seconds
+
+HEAP SORT OF SIZE 20000
+Time elapsed: 0.011 seconds
+
+HEAP SORT OF SIZE 20000
+Time elapsed: 0.01 seconds
+
+HEAP SORT OF SIZE 20000
+Time elapsed: 0.01 seconds

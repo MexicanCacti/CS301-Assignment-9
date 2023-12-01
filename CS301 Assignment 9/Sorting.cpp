@@ -82,7 +82,6 @@ int main() {
 
 void bubbleSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
-  
   // start the timer and start sorting
   clock_t  startTime = clock();
   Bubble(test); // see BubbleSort.h for implementation of bubble sort
@@ -98,10 +97,9 @@ void bubbleSort(vector<int>test, ofstream& out) {
 
 void quickSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
-
   // start the timer and start sorting
   clock_t  startTime = clock();
-  
+  QuickSort(test, 0, test.size() - 1);
   clock_t endTime = clock();
   // stop timer, computer timing result
   elapsedSeconds = (double)(endTime - startTime) / CLOCKS_PER_SEC;
@@ -114,7 +112,6 @@ void quickSort(vector<int>test, ofstream& out) {
 
 void mergeSort(vector<int>test, ofstream& out) {
   double elapsedSeconds = 0;
-
   // start the timer and start sorting
   clock_t  startTime = clock();
   MergeSort(test, 0, test.size() - 1);
@@ -133,7 +130,7 @@ void heapSort(vector<int>test, ofstream& out) {
 
   // start the timer and start sorting
   clock_t  startTime = clock();
-
+  HeapSort(test, test.size());
   clock_t endTime = clock();
   // stop timer, computer timing result
   elapsedSeconds = (double)(endTime - startTime) / CLOCKS_PER_SEC;

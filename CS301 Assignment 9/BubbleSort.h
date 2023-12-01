@@ -1,7 +1,4 @@
 #pragma once
-#include <iostream>
-#include <vector>
-
 void Bubble(std::vector<int>);
 
 
